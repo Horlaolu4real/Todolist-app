@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: linear-gradient(to right bottom, #e1b382, #c89666);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  background-color: #12343b;
+  width: 100%;
+  max-width: 350px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 3px 6px 90px #000;
+  margin-bottom: 10px;
+}
+
+.center h1 {
+  margin: 30px 0px 30px 0px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.row {
+  outline: none;
+  width: 90%;
+  padding: 15px;
+  margin-right: 25px;
+  font-size: 20px;
+  color: #f2f2f2;
+  background-color: #000000;
+  border: 1px solid #c89666;
+  border-radius: 10px;
+}
+
+.btn-button {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 22px;
+  background-color: #f1af71;
+  border: 1px solid #cf9f6e;
+  margin: 5px 0px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding: 20px 20px 20px 20px;
+  background-color: #12343b;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 15px;
+  max-width: 100%;
+}
+
+button {
+  border-radius: 10px;
+  /* gap: none; */
+}
+
+.edit-btn {
+  background-color: yellow;
+  font-size: 15px;
+  cursor: pointer;
+  color: #000;
+  text-decoration: none;
+  border: 1px solid yellow;
+  margin: 0px 0px 0px 5px;
+}
+
+.edit-btn:hover {
+  background-color: #FFFFFF;
+  border: 1px solid #ffffff;
+  font-weight: 900;
+}
+
+.delete-btn {
+  background-color: red;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0px 5px 0px 5px;
+}
+.delete-btn:hover {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+}
+.complete-btn {
+  background-color: orangered;
+  font-size: 15px;
+  cursor: pointer;
+  border: 1px solid orangered;
+  padding: 1px;
+}
+
+.complete-btn:hover {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+}
+
+.complete {
+  text-decoration: line-through;
+  color: #000;
+}
+
+li.edit-btn {
+  display: flex;
+  align-items: space-between;
+  justify-content: space-between;
+  gap: 20px;
+}
